@@ -254,4 +254,4 @@ client.on('messageReactionAdd', async (reaction, user) => {
   }
 })
 
-client.login('ODQ0NjA0NDA5MDYxNDQxNTU4.YKU1Jw.igjA7bdD45u9G_6hntT4jggrlGQ');
+client.login('ODQ0NjA0NDA5MDYxNDQxNTU4.YKU1Jw.fvNfxDEbS4fXIiAaXRQCaxZI2VE');
