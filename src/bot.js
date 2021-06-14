@@ -108,7 +108,7 @@ client.on('message', async message => {
 
 client.on('message', async (message) => {
   if(message.author.bot || message.channel.type === 'dm') return;
-  if(message.content.toLowerCase() === `${PREFIX}setup` && message.guild.ownerID === message.author.id) {
+  if(message.content.toLowerCase() === `${PREFIX}setup` && message.guild.ownerID === message.author.id || message.member.hasPermission('ADMINISTRATOR')) {
     try {
       const filter = (m) => m.author.id === message.author.id;
       message.channel.send('Inserisci l\'id del messaggio');
